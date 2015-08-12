@@ -4,7 +4,7 @@
         args = arr[idx];
         width = args.css && args.css.width;
         $chart = $('<div>').addClass('aa-chart').css({width: width}).appendTo('.AA-tcharts');
-        $('<h3>' + args.label + '</h3><p>' + args.description + '</p>').appendTo($chart);
+        $('<h3>' + args.label + '</h3><br /><p>' + args.description + '</p>').appendTo($chart);
         $('<div class="chart">')
             .attr('id', 'group-' + idx)
             .css(args.css || {})

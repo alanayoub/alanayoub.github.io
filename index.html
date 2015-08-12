@@ -12,9 +12,16 @@
             color: #333;
         }
 
+        section {
+            background: #fff;
+            border: 1px solid #ccc;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+        }
+
         h2 {
             font-size: 48px;
-            margin: 40px 0 0 20px;
+            margin: 30px 0 0 20px;
         }
 
         h2 sub {
@@ -29,12 +36,17 @@
             color: #111;
         }
 
+        .AA-page {
+             width: 950px;
+             margin: 0 auto;
+        }
+
         .AA-charts {
-            width: 940px;
+            width: 950px;
         }
 
         .AA-charts .aa-chart {
-            margin: 20px 0 0 20px;
+            margin: 50px 0 0 20px;
             display: inline-block;
             background: #fff;
         }
@@ -44,10 +56,13 @@
             display: inline-block;
             font-weight: normal;
             font-size: 12px;
+            background: #eee;
         }
         .AA-charts p {
             margin: 0 0 0 0;
             font-size: 12px;
+            background: #eee;
+            display: inline-block;
         }
         .AA-charts section .chart {
             background: #fff;
@@ -57,11 +72,19 @@
         }
         .AA-charts .container {
             display: inline-block;
-            border: 1px dashed #ccc;
+            <!-- border: 1px dashed #ccc; -->
+        }
+
+        .gist-it-gist {
+            width: 910px;
+        }
+
+        .gist-it-gist .gist-file {
+            margin: 0!important;
         }
     </style>
     <body>
-        <div>
+        <div class="AA-page">
             <h1></h1>
             <section>
                 <h2>
@@ -84,18 +107,37 @@
                 <div>
                   <div class="AA-charts">
                     <div class="aa-chart">
-                        <div id="surface1" style="width: 630px; height: 500px; position: relative;"></div>
+                        <div class="container">
+                            <div id="surface1" style="width: 630px; height: 500px; position: relative;"></div>
+                        </div>
                     </div>
                     <div class="aa-chart">
-                        <img src="./images/jsurface3d.png" />
+                        <div class="container" style="height: 500px">
+                            <img src="./images/jsurface3d.png" />
+                        </div>
+                    </div>
+                    <div class="aa-chart">
+                        <div>Code snippit from JSurface3D</div>
+                        <div class="container">
+                            <script src="http://gist-it.appspot.com/github/alanayoub/JSurface3D/blob/master/src/four/four.buffer.js?footer=minimal"></script>
+                        </div>
                     </div>
                   </div>
                 </div>
             </section>
+            <section>
             <h2>
                 <div>OpenGamma Analytics</div>
                 <sub>A realtime risk &amp; analytics application for capital markets</sub>
             </h2>
+            <div class="AA-charts">
+                <div class="aa-chart">
+                    <div class="container">
+                        <iframe width="910" height="595" src="https://www.youtube.com/embed/IgLZ6pHJXUo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            </section>
             <h2>
                 <div>Watchr</div>
                 <sub>A personal project. A web scraper built using Node, PhantomJS, Vagant, Chef, AWS, Postgres, Redis, Socket.io etc</sub>
