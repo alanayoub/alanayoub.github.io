@@ -20,7 +20,7 @@
         label: 'Complex nested stacked grouped bars',
         description: 'Lots of labels, custom formatters',
         css: {
-            width: '900px', height: '500px'
+            width: '1024px', height: '500px'
         },
         data: [
             [19421, 26460, 25362, 25322, 27324, -57632, -74830, -98290],
@@ -96,7 +96,7 @@
         label: 'Non grouped with formatter',
         description: 'More space on the top to accomodate larger labels',
         css: {
-            width: '440px', height: '300px'
+            width: '502px', height: '300px'
         },
         data: [
             [10, 12, 15, 25, 40, 27, 22, 13, 11]
@@ -131,7 +131,7 @@
         label: 'Stacked with custom ticks, interval, min and max',
         description: 'Doubled the amount of ticks',
         css: {
-            width: '440px', height: '300px'
+            width: '502px', height: '300px'
         },
         data: [
             [1975065, 671522.1000000001,1106036.4000000001],[1975065,612270.15,1165288.3499999999],[2128526,617272.5399999999,1191974.56],
@@ -209,7 +209,7 @@
         label: 'Multiple axes with custom formatted hover labels',
         description: 'Increased gap between groups',
         css: {
-            width: '440px', height: '300px'
+            width: '502px', height: '300px'
         },
         data: [
             [65946270, 235923330],
@@ -261,7 +261,7 @@
         label: 'Lots of data in small area (9 x 9)',
         description: '',
         css: {
-            width: '440px', height: '300px'
+            width: '502px', height: '300px'
         },
         data: [
             [300111168, 115154669, 466061552, 526628836, 276326947, 745577439, 66899343, 670429230, 801027020],

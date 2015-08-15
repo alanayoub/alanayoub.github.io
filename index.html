@@ -4,85 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Alan Ayoub work</title>
-    <style>
-        @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400);
-        body {
-            font: normal normal 12px/160% "Open Sans", Verdana, Helvetica, sans-serif;
-            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAALElEQVQIW2NkwAI+fvz4nxFdHCTIz8/PiCIBEwQphksgC8Il0AXBEtgEQRIA8GcX2UKjGmkAAAAASUVORK5CYII=);
-            color: #333;
-        }
-
-        section {
-            background: #fff;
-            border: 1px solid #ccc;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 48px;
-            margin: 30px 0 0 20px;
-        }
-
-        h2 sub {
-            font-size: 12px;
-        }
-
-        a {
-            color: #06558b;
-        }
-
-        a:hover {
-            color: #111;
-        }
-
-        .AA-page {
-             width: 950px;
-             margin: 0 auto;
-        }
-
-        .AA-charts {
-            width: 950px;
-        }
-
-        .AA-charts .aa-chart {
-            margin: 50px 0 0 20px;
-            display: inline-block;
-            background: #fff;
-        }
-
-        .AA-charts h3 {
-            margin: 0 0 0 0;
-            display: inline-block;
-            font-weight: normal;
-            font-size: 12px;
-            background: #eee;
-        }
-        .AA-charts p {
-            margin: 0 0 0 0;
-            font-size: 12px;
-            background: #eee;
-            display: inline-block;
-        }
-        .AA-charts section .chart {
-            background: #fff;
-            width: 450px;
-            height: 300px;
-            display: block;
-        }
-        .AA-charts .container {
-            display: inline-block;
-            <!-- border: 1px dashed #ccc; -->
-        }
-
-        .gist-it-gist {
-            width: 910px;
-        }
-
-        .gist-it-gist .gist-file {
-            margin: 0!important;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
     <body>
         <div class="AA-page">
             <h1></h1>
@@ -106,9 +28,9 @@
                 </h2>
                 <div>
                   <div class="AA-charts">
-                    <div class="aa-chart">
+                    <div class="aa-chart" style="float: left">
                         <div class="container">
-                            <div id="surface1" style="width: 630px; height: 500px; position: relative;"></div>
+                            <div id="surface1" style="width: 754px; height: 500px; position: relative;"></div>
                         </div>
                     </div>
                     <div class="aa-chart">
@@ -128,27 +50,44 @@
             <section>
             <h2>
                 <div>OpenGamma Analytics</div>
-                <sub>A realtime risk &amp; analytics application for capital markets</sub>
+                <sub>
+                    A realtime risk &amp; analytics application for capital markets.
+                </sub>
             </h2>
+            <div class="AA-description">
+                jQuery, Handlebars, Three.js &amp; Flot.<br />
+                No frameworks or other utility libraries.
+            </div>
             <div class="AA-charts">
                 <div class="aa-chart">
                     <div class="container">
-                        <iframe width="910" height="595" src="https://www.youtube.com/embed/IgLZ6pHJXUo" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="1024" height="666" src="https://www.youtube.com/embed/IgLZ6pHJXUo" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
             </section>
-            <h2>
-                <div>Watchr</div>
-                <sub>A personal project. A web scraper built using Node, PhantomJS, Vagant, Chef, AWS, Postgres, Redis, Socket.io etc</sub>
-            </h2>
-            <h2>
-                <div>3D Graphics</div>
-                <sub>Pre 2006 3Ds max 5/6</sub>
-            </h2>
+            <section>
+                <h2>
+                    <div>Watchr</div>
+                    <sub>A web scraper built using Node, PhantomJS, Vagant, Chef, AWS, Postgres, Redis, Socket.io, Backbone, RequireJS etc</sub>
+                </h2>
+                <div class="AA-description"></div>
+            </section>
+            <section>
+                <h2>
+                    <div>3D Graphics</div>
+                    <sub>Pre 2006 3Ds max 5/6</sub>
+                </h2>
+                <div class="AA-3d">
+                    <img src="images/3d/train.png" />
+                    <img src="images/3d/can.png" />
+                    <img src="images/3d/heart.png" />
+                    <img src="images/3d/robot.png" />
+                </div>
+            </section>
         </div>
         <script src='dist/index.js'></script>
-        <script src='node_modules/JSurface3D/src/three/three.js'></script>
-        <script src='node_modules/JSurface3D/src/fonts/helvetiker/helvetiker_regular.typeface.js'></script>
+        <script src='node_modules/jsurface3d/src/three/three.js'></script>
+        <script src='node_modules/jsurface3d/src/fonts/helvetiker/helvetiker_regular.typeface.js'></script>
         </body>
 </html>

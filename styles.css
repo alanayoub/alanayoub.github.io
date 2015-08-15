@@ -1,0 +1,87 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400);
+body {
+    font: normal normal 12px/160% "Open Sans", Verdana, Helvetica, sans-serif;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAALElEQVQIW2NkwAI+fvz4nxFdHCTIz8/PiCIBEwQphksgC8Il0AXBEtgEQRIA8GcX2UKjGmkAAAAASUVORK5CYII=);
+    color: #333;
+}
+
+section {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 30px 0 0 20px;
+}
+
+h2 sub {
+    font-size: 12px;
+}
+
+a {
+    color: #06558b;
+}
+
+a:hover {
+    color: #111;
+}
+
+.AA-page {
+     width: 1064px;
+     margin: 0 auto;
+}
+
+.AA-description {
+    padding: 10px 0 0 20px;
+}
+
+.AA-charts {}
+
+.AA-charts .aa-chart {
+    margin: 50px 0 0 20px;
+    display: inline-block;
+    background: #fff;
+}
+
+.AA-charts h3 {
+    margin: 0 0 0 0;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 12px;
+    background: #eee;
+}
+
+.AA-charts p {
+    margin: 0 0 0 0;
+    font-size: 12px;
+    background: #eee;
+    display: inline-block;
+}
+
+.AA-charts section .chart {
+    background: #fff;
+    width: 450px;
+    height: 300px;
+    display: block;
+}
+
+.AA-charts .container {
+    display: inline-block;
+    <!-- border: 1px dashed #ccc; -->
+}
+
+.AA-3d {
+    margin: 40px 20px 0 20px;
+    text-align: center;
+}
+
+.gist-it-gist {
+    width: 1024px;
+}
+
+.gist-it-gist .gist-file {
+    margin: 0!important;
+}
