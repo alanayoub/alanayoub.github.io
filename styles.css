@@ -14,11 +14,13 @@ section {
 
 h2 {
     font-size: 48px;
-    margin: 30px 0 0 20px;
+    margin: 30px 20px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
 }
 
 h2 sub {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 a {
@@ -35,7 +37,9 @@ a:hover {
 }
 
 .AA-description {
-    padding: 10px 0 0 20px;
+    padding: 2px 0 2px 0;
+    background: #eee;
+    display: inline;
 }
 
 .AA-charts {}
@@ -70,7 +74,7 @@ a:hover {
 
 .AA-charts .container {
     display: inline-block;
-    <!-- border: 1px dashed #ccc; -->
+    margin-top: 10px;
 }
 
 .AA-3d {
@@ -78,8 +82,9 @@ a:hover {
     text-align: center;
 }
 
-.gist-it-gist {
+.gist, .gist-it-gist {
     width: 1024px;
+    margin: 20px 20px 0 20px;
 }
 
 .gist-it-gist .gist-file {
