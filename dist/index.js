@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/home/alan/Development/Git/alanayoub.github.io/node_modules/jquery-browserify/lib/jquery.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jquery-browserify/lib/jquery.js":[function(require,module,exports){
 // Uses Node, AMD or browser globals to create a module.
 
 // If you want something that will work in other stricter CommonJS environments,
@@ -9332,7 +9332,7 @@ return jQuery;
 
 })( window ); }));
 
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffer.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffer.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9368,7 +9368,7 @@ return jQuery;
         return buffer;
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffercount.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffercount.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9383,7 +9383,7 @@ return jQuery;
         if ($(live_buffer).length) console.log($(live_buffer).length - $(deleted_buffer).length);
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.interactivemeshes.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.interactivemeshes.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9406,7 +9406,7 @@ return jQuery;
         };
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.matlib.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.matlib.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9495,7 +9495,7 @@ return jQuery;
         return matlib;
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.multimaterial_object.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.multimaterial_object.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9517,7 +9517,7 @@ return jQuery;
         return group;
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.scale.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.scale.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9536,7 +9536,7 @@ return jQuery;
         return arr.map(function (val) {return ((val - min) / (max - min) * (range_max - range_min) + range_min);});
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.text3d.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.text3d.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9592,7 +9592,7 @@ return jQuery;
         };
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.tube.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.tube.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9623,7 +9623,7 @@ return jQuery;
         return group;
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.axis.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.axis.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9746,7 +9746,7 @@ return jQuery;
         return mesh;
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.hud.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.hud.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -9867,7 +9867,7 @@ return jQuery;
         };
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.js":[function(require,module,exports){
 /**
  * <strong>LICENSING INFORMATION:</strong>
  * <blockquote><pre>
@@ -10132,7 +10132,7 @@ return jQuery;
         }());
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.plane.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.plane.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -10187,7 +10187,7 @@ return jQuery;
         return plane;
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.slice.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.slice.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -10339,7 +10339,7 @@ return jQuery;
         };
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.smile.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.smile.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -10428,7 +10428,7 @@ return jQuery;
         return smile;
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceplane.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceplane.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -10521,7 +10521,7 @@ return jQuery;
         return surfaceplane
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceworld.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceworld.js":[function(require,module,exports){
 /**
  * Copyright 2012 - present by OpenGamma Inc. and the OpenGamma group of companies
  * Please see distribution for license.
@@ -10951,7 +10951,7 @@ return jQuery;
         };
     };
 })();
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/three/detector.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/three/detector.js":[function(require,module,exports){
 /**
  * @author alteredq / http://alteredqualia.com/
  * @author mr.doob / http://mrdoob.com/
@@ -11011,7 +11011,7 @@ Detector = {
 	}
 
 };
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/three/three.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/three/three.js":[function(require,module,exports){
 /**
  * @author mrdoob / http://mrdoob.com/
  * @author Larry Battle / http://bateru.com/news
@@ -46288,7 +46288,7 @@ THREE.ShaderSprite = {
 	}
 
 };
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/raphael/node_modules/eve/eve.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/raphael/node_modules/eve/eve.js":[function(require,module,exports){
 // Copyright (c) 2013 Adobe Systems Incorporated. All rights reserved.
 // 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -46661,7 +46661,7 @@ THREE.ShaderSprite = {
     (typeof module != "undefined" && module.exports) ? (module.exports = eve) : (typeof define != "undefined" ? (define("eve", [], function() { return eve; })) : (glob.eve = eve));
 })(this);
 
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/raphael/raphael.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/raphael/raphael.js":[function(require,module,exports){
 // ┌────────────────────────────────────────────────────────────────────┐ \\
 // │ Raphaël 2.1.3 - JavaScript Vector Library                          │ \\
 // ├────────────────────────────────────────────────────────────────────┤ \\
@@ -54902,7 +54902,7 @@ THREE.ShaderSprite = {
     return R;
 }));
 
-},{"eve":"/home/alan/Development/Git/alanayoub.github.io/node_modules/raphael/node_modules/eve/eve.js"}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/tcharts/dist/bar.js":[function(require,module,exports){
+},{"eve":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/raphael/node_modules/eve/eve.js"}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/tcharts/dist/bar.js":[function(require,module,exports){
 if (!Raphael || !Raphael.tcharts) {
     throw new Error('tbar: tcharts and Raphael are required');
 }
@@ -55375,9 +55375,9 @@ Raphael.fn.tcharts_Bar = function (data, options) {
     animate();
 };
 
-},{}],"/home/alan/Development/Git/alanayoub.github.io/node_modules/tcharts/dist/tcharts.min.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/tcharts/dist/tcharts.min.js":[function(require,module,exports){
 "use strict";if(function(Raphael){Raphael&&Raphael.el&&(Raphael.el.fitText||(Raphael.el.fitText=function(width,text){if(this.removed||"text"!==this.type)return this;"number"!=typeof width&&(width=this.paper.width),"string"==typeof text?this.attr("text",text):text=this.attr("text");var currentWidth=this.getBBox().width;if(currentWidth>width){var avgCharWidth=currentWidth/text.length,textLengthThatFits=Math.round(width/avgCharWidth),textThatFits=text.substr(0,textLengthThatFits-3);for(this.attr({text:textThatFits+"...",title:text});this.getBBox().width>width&&textThatFits.length>0;)textThatFits=textThatFits.slice(0,-1),this.attr("text",textThatFits+"...")}else this.attr("title","");return this}))}(Raphael),Raphael.tcharts={calculate_axis_interval:function(data,axis,min,max,width,height){var interval=(max-min)/(.25*Math.sqrt("x"===axis?width:height)),dec=-Math.floor(Math.log(interval)/Math.LN10),magn=Math.pow(10,-dec),norm=interval/magn;switch(!0){case 1.5>norm:interval=1;break;case 2.25>norm:interval=2;break;case 3>norm:interval=2.5;break;case 7.5>norm:interval=5;break;default:interval=10}return interval*magn},calculate_axis_ticks:function(data,axis,min,max){var interval=this.calculate_axis_interval.apply(this,arguments),value=Number.NaN,start=interval*Math.floor(min/interval),ticks=[],i=0;do value=start+i++*interval,ticks.push(value);while(max>value);return ticks},calculate_required_space:function(config){var value,isnum,label,space,arr=[];return config.labels.length?(config.dimension||(config.dimension="width"),config.labels.forEach(function(val){var item;return"string"==typeof val?arr.push(val):(item=[val,Raphael.tcharts.number_formatter(val,null,2,!0)],void("function"!=typeof config.formatter?arr.push(item[1]):(item=config.formatter([item],config.min,config.max,config.interval),item.ticks.forEach(function(v){arr.push(v[1])}))))}),value=arr.reduce(function(a,b){return(a+"").length>(b+"").length?a:b}),isnum="number"==typeof value?!0:!1,value=(value+"").split("").reduce(function(acc,val){return acc.push(" "===val?" ":isNaN(val)?"m":"0")&&acc},[]).join(""),label=config.paper.tcharts__Label({x:50,y:50,value:value}),label.attr({transform:"r"+config.rotation||0}),space=label.getBBox()[config.dimension],label.remove(),space):0},calculate_sas_triangle:function(a,B,c){return Math.sqrt(Math.pow(a,2)+Math.pow(c,2)-2*a*c*Math.cos(B/180*Math.PI))},filter_data:function(data,start,skip){return skip.length?skip.reduce(function(acc,val){return acc.push(data[val]),acc},[]):data.slice(start,data.length).filter(function(val,idx){return idx/(skip+1)%1===0})},flatten:function(array){return Array.prototype.concat.apply([],array)},number_formatter:function(number,format,precision,shorthand){if(!shorthand)return Number(number).toLocaleString(format||"en",{maximumSignificantDigits:precision||10});var negative=0>number,num=Math.abs(Number(number)),formatter=function(val){return val=val%1!==0?parseFloat(val.toFixed(2)):Math.floor(val),negative?-val:val};return num>=1e12?formatter(num/1e12)+" tn":num>=1e9?formatter(num/1e9)+" bn":num>=1e6?formatter(num/1e6)+" m":num>=1e3?formatter(num/1e3)+" k":formatter(num)},tick_formatter:function(ticks,min,max,interval){return ticks.length?(ticks.forEach(function(val,idx){ticks[idx]=val.reduce(function(acc,val,idx){return acc.push(idx?Raphael.tcharts.number_formatter(val,null,2,!0):val),acc},[])}),{ticks:ticks,min:min,max:max,interval:interval}):Raphael.tcharts.number_formatter(ticks,null,2,!0)}},Raphael.fn.tcharts__Error=function(config){var paper=this;paper.tcharts__Label({x:paper.width/2,y:paper.height/2,value:config.message})},Raphael.fn.tcharts__Meta=function(data,options){var paper=this,meta={};meta.original_data=data,meta.data=function(){return options.bars.stacked?meta.original_data.reduce(function(acc,val){return acc.push(val.reduce(function(a,v){return a+=Math.abs(v)},0)),acc},[]):Raphael.tcharts.flatten(meta.original_data)}(),meta.group_pos_neg=function(){if(meta.original_data[0].length){var pos=[],neg=[];return meta.original_data.forEach(function(val){var p=0,n=0;val.forEach(function(v){v>0?p+=v:0>v&&(n+=v)}),pos.push(p),neg.push(n)}),{positive:pos,negative:neg}}}(),meta.negative_amount=function(){var arr=[];return meta.original_data.forEach(function(val){var a=0;val.length&&(val.forEach(function(v){0>v&&(a+=v)}),arr.push(a))}),arr}(),meta.data_len=meta.data.length,meta.canvas_width=paper.width,meta.canvas_height=paper.height;var recalculatoratron=function(fun1,fun2,fun3){fun1(),fun2(fun1),fun3()};return recalculatoratron(function(){meta.data_arr=function(){var arr=[];return options.yaxes.forEach(function(axis){arr.push(options.yaxes.length>1?Raphael.tcharts.filter_data(meta.data,axis.data_start,axis.data_offset):meta.data)}),arr}(),meta.all_zeros=function(){var arr=[];return options.yaxes.forEach(function(axis,idx){arr.push(meta.data_arr[idx].every(function(val){return 0===val}))}),arr}(),meta.max_data_val=function(){return options.bars.stacked?[Math.max.apply(null,meta.group_pos_neg.positive)]:meta.data_arr.reduce(function(acc,val){return acc.push(Math.max.apply(null,val)),acc},[])}(),meta.min_data_val=function(){return options.bars.stacked?[Math.min.apply(null,meta.group_pos_neg.negative)]:meta.data_arr.reduce(function(acc,val){var min=Math.min.apply(null,val);return min>0&&(min=0),acc.push(min),acc},[])}(),meta.yaxes_data_values=function(){var arr=[];return options.yaxes.forEach(function(axis,idx){if(axis.show){if(meta.all_zeros[idx])return arr.push([0,1]);var data_arr,axis_arr;data_arr=options.yaxes.length>1?Raphael.tcharts.filter_data(meta.data,axis.data_start,axis.data_offset):meta.data,axis_arr=Raphael.tcharts.calculate_axis_ticks(data_arr,"y",meta.min_data_val[idx],meta.max_data_val[idx],0,(meta.chart_area_height||meta.canvas_height)-options.yaxis.reserved_height),arr.push(axis_arr)}}),arr}(),meta.max_axis_val=meta.yaxes_data_values.reduce(function(acc,val,idx){return acc.push(meta.all_zeros[idx]?1:Math.max.apply(null,val)),acc},[]),meta.min_axis_val=meta.yaxes_data_values.reduce(function(acc,val,idx){return acc.push(meta.all_zeros[idx]?0:Math.min.apply(null,val)),acc},[]),meta.axes_interval=function(){var data,axis,min,max,width,height;return meta.yaxes_data_values.reduce(function(acc,val,idx){return data=val,axis="y",min=meta.min_data_val[idx],max=meta.max_data_val[idx],width=0,height=(meta.chart_area_height||meta.canvas_height)-options.yaxis.reserved_height,acc.push(Raphael.tcharts.calculate_axis_interval(data,axis,min,max,width,height)),acc},[])}()},function(recalculate){meta.axes_reserved_space=function(){var yaxes,config,calculate=Raphael.tcharts.calculate_required_space,spacing={left:0,right:0,bottom:0},xaxis=options.bars.axes_labels;return options.yaxes.forEach(function(axis,idx){var data=meta.yaxes_data_values[idx];yaxes=options.yaxes.length>1?Raphael.tcharts.filter_data(data,axis.data_start,axis.data_offset):data,config={paper:paper,labels:yaxes,formatter:axis.tick_formatter,min:meta.min_axis_val[idx],max:meta.max_axis_val[idx],interval:meta.axes_interval[idx]},spacing[axis.position]=calculate(config)}),options.xaxis.show&&xaxis&&xaxis.length&&(config.labels=xaxis,config.formatter=null,config.rotation=options.xaxis.rotation,config.dimension="height",spacing.bottom=function(){var space=calculate(config)+options.xaxis.gap,percent=space&&space/meta.canvas_height*100,truncate_percent=options.xaxis.labels.truncate;return percent>truncate_percent?meta.canvas_height/100*truncate_percent:space}()),spacing}(),meta.x=options.canvas.padding.left+meta.axes_reserved_space.left,meta.y=options.canvas.padding.top,meta.chart_area_width=meta.canvas_width-(options.canvas.padding.left+options.canvas.padding.right)-(meta.axes_reserved_space.left+meta.axes_reserved_space.right),meta.chart_area_height=Math.round(meta.canvas_height-(options.canvas.padding.top+options.canvas.padding.bottom)-meta.axes_reserved_space.bottom/2),meta.chart_bbox={top:options.canvas.padding.top-.5,right:meta.x+meta.chart_area_width-.5,bottom:meta.chart_area_height+meta.y-.5,left:meta.x+.5},recalculate()},function(){meta.yaxes_data_values_formatted=function(){var min,max,interval,arr=meta.yaxes_data_values,result=[];return options.yaxes.forEach(function(axis,idx){var formatted,ticks=arr[idx];ticks=ticks.map(function(val){return[val,Raphael.tcharts.number_formatter(val,null,2,!0)]}),"function"==typeof axis.tick_formatter&&(min=meta.min_axis_val[idx],max=meta.max_axis_val[idx],interval=meta.axes_interval[idx],formatted=axis.tick_formatter(ticks,min,max,interval),formatted.min&&(meta.min_axis_val[idx]=formatted.min),formatted.max&&(meta.max_axis_val[idx]=formatted.max),formatted.interval&&(meta.axes_interval[idx]=formatted.interval)),result.push(formatted&&formatted.ticks||ticks)}),result}(),meta.range=meta.yaxes_data_values.reduce(function(acc,val,idx){return acc.push(meta.max_axis_val[idx]-(meta.min_axis_val[idx]<0?meta.min_axis_val[idx]:0)),acc},[])}),paper.tmeta=meta,meta},Raphael.fn.tcharts__Axes=function(data,options,height){var paper=this,tmeta=Raphael.fn.tcharts__Meta.call(paper,data,options);height=height||tmeta.chart_area_height,paper.tcharts__Axes={},paper.tcharts__Axes.units=options.yaxes.reduce(function(acc,val,idx){return acc.push(tmeta.range[idx]/height),acc},[]),paper.tcharts__Axes.negative_offset=options.yaxes.reduce(function(acc,val,idx){return acc.push(Math.floor(tmeta.min_axis_val[idx]<0?tmeta.min_axis_val[idx]/paper.tcharts__Axes.units[idx]:0)),acc},[]);var draw_border=function(){var yaxes=paper.set(),xl=paper.tmeta.chart_bbox.left,xr=paper.tmeta.chart_bbox.right,yb=paper.tmeta.chart_bbox.bottom,yt=paper.tmeta.chart_bbox.top;yaxes.push(paper.path(["M",xl,yb,"L",xr,yb])),yaxes.push(paper.path(["M",xl,yt,"L",xl,yb])),yaxes.push(paper.path(["M",xr,yt,"L",xr,yb])),yaxes.attr({stroke:options.chart.axes_color})},draw_yaxes=function(){var arr=tmeta.yaxes_data_values_formatted,fullwidth=options.yaxes.length<2;options.yaxes.forEach(function(axis,idx){if(axis.show){var ticks=arr[idx],position=axis.position,elms=paper.set(),xl=tmeta.chart_bbox.left,xr=tmeta.chart_bbox.right,yb=tmeta.chart_bbox.bottom;"left"===position&&(xr=xl+5),"right"===position&&(xl=xr-5),ticks.forEach(function(val){var y=Math.floor(yb-val[0]/paper.tcharts__Axes.units[idx])+.5+paper.tcharts__Axes.negative_offset[idx];elms.push(paper.path(["M",fullwidth?tmeta.chart_bbox.left:xl,y,"L",fullwidth?tmeta.chart_bbox.right:xr,y])),paper.tcharts__Label({x:xl+("left"===position?-5:10),y:y,value:val[1],align:"left"===position?"right":"left",color:options.label_color,background_color:options.chart.label_background_color})}),elms.attr(fullwidth?{stroke:options.axes.full_width_stroke}:{stroke:options.axes.stroke})}})};draw_border(),draw_yaxes()},!Raphael||!Raphael.tcharts)throw new Error("tbar: tcharts and Raphael are required");Raphael.tcharts.defaults={axes:{full_width_stroke:"#eee",stroke:"#666"},bars:{axes_labels:[],colors:["#4aa725","#248ba7","#244aa7","#8124a7","#a7244a","#a74024","#ffcc00","#006666","#098ff4","#857f7f","#f49d09","#e3dbdb","#2e2c2c","#bf0000","#d9f8c8","#3d005a"],color_wrap:0,formatters:[],format_offset_type:"fill",format_offset:0,gap:1,max_width:100,labels:[],stacked:!1},canvas:{padding:{bottom:10,left:0,right:0,top:30}},chart:{axes_color:"#b2b2b2",error:{message:"Oops, something seems to have gone wrong"},gutter:{gap:20},label_background_color:"transparent",number_format:"en"},label_color:"#000",groups:{gap:20,label_height:40,labels:{},separator_styles:[{stroke:"#ccc"},{stroke:"#ccc","stroke-dasharray":"--"},{stroke:"#ddd","stroke-dasharray":"-"},{stroke:"#ddd","stroke-dasharray":"--.."}],show:!1},labels:{background:{fill:"#000",opacity:.8},show:!0,font:{fill:"#fff","font-size":12},formatter:!1},links:[],xaxis:{background_color:"none",color:"#000",gap:5,labels:{truncate:"20"},rotation:45,show:!1},yaxes:[{data_offset:1,data_offset_type:"fill",data_start:0,position:"left",show:!0,tick_formatter:!1}],yaxis:{reserved_height:0}},Raphael.el.tcharts__Label=function(width,height,color){if(this.paper){var bbox=this.getBBox(),paper=this.paper||this[0].paper,radius=Math.min(15,bbox.width,bbox.height)/2,x=bbox.x-radius/2,y=bbox.y-radius/2;return paper.rect(x,y,bbox.width+radius,bbox.height+radius,1).attr({fill:color||"#fff",stroke:"none","clip-rect":[x,y,width,height].join(",")}).insertBefore(this.node?this:this[0])}},Raphael.fn.tcharts__Label=function(config){var align,set=this.set(),value=this.text(config.x,config.y,config.value),width=config.width,height=config.height;return"left"===config.align&&(align="start"),"right"===config.align&&(align="end"),value.attr({"text-anchor":align,font:"12px Arial, sans-serif",fill:config.color||"#000"}),width&&value.fitText(width),set.push(value.tcharts__Label(width,height,config.background_color),value)};
-},{}],"/home/alan/Development/Git/alanayoub.github.io/scripts/index.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/scripts/index.js":[function(require,module,exports){
 (function (global){
 require('raphael');
 require('jquery-browserify');
@@ -55408,7 +55408,7 @@ require('./tcharts.js');
 require('./jsurface3d.js');
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./jsurface3d.js":"/home/alan/Development/Git/alanayoub.github.io/scripts/jsurface3d.js","./tcharts.js":"/home/alan/Development/Git/alanayoub.github.io/scripts/tcharts.js","jquery-browserify":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jquery-browserify/lib/jquery.js","jsurface3d/src/four/four.buffer.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffer.js","jsurface3d/src/four/four.buffercount.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffercount.js","jsurface3d/src/four/four.interactivemeshes.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.interactivemeshes.js","jsurface3d/src/four/four.matlib.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.matlib.js","jsurface3d/src/four/four.multimaterial_object.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.multimaterial_object.js","jsurface3d/src/four/four.scale.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.scale.js","jsurface3d/src/four/four.text3d.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.text3d.js","jsurface3d/src/four/four.tube.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/four/four.tube.js","jsurface3d/src/jsurface3d/jsurface3d.axis.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.axis.js","jsurface3d/src/jsurface3d/jsurface3d.hud.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.hud.js","jsurface3d/src/jsurface3d/jsurface3d.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.js","jsurface3d/src/jsurface3d/jsurface3d.plane.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.plane.js","jsurface3d/src/jsurface3d/jsurface3d.slice.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.slice.js","jsurface3d/src/jsurface3d/jsurface3d.smile.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.smile.js","jsurface3d/src/jsurface3d/jsurface3d.surfaceplane.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceplane.js","jsurface3d/src/jsurface3d/jsurface3d.surfaceworld.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceworld.js","jsurface3d/src/three/detector.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/three/detector.js","jsurface3d/src/three/three.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/jsurface3d/src/three/three.js","raphael":"/home/alan/Development/Git/alanayoub.github.io/node_modules/raphael/raphael.js","tcharts/dist/bar.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/tcharts/dist/bar.js","tcharts/dist/tcharts.min.js":"/home/alan/Development/Git/alanayoub.github.io/node_modules/tcharts/dist/tcharts.min.js"}],"/home/alan/Development/Git/alanayoub.github.io/scripts/jsurface3d.js":[function(require,module,exports){
+},{"./jsurface3d.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/scripts/jsurface3d.js","./tcharts.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/scripts/tcharts.js","jquery-browserify":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jquery-browserify/lib/jquery.js","jsurface3d/src/four/four.buffer.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffer.js","jsurface3d/src/four/four.buffercount.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.buffercount.js","jsurface3d/src/four/four.interactivemeshes.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.interactivemeshes.js","jsurface3d/src/four/four.matlib.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.matlib.js","jsurface3d/src/four/four.multimaterial_object.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.multimaterial_object.js","jsurface3d/src/four/four.scale.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.scale.js","jsurface3d/src/four/four.text3d.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.text3d.js","jsurface3d/src/four/four.tube.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/four/four.tube.js","jsurface3d/src/jsurface3d/jsurface3d.axis.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.axis.js","jsurface3d/src/jsurface3d/jsurface3d.hud.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.hud.js","jsurface3d/src/jsurface3d/jsurface3d.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.js","jsurface3d/src/jsurface3d/jsurface3d.plane.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.plane.js","jsurface3d/src/jsurface3d/jsurface3d.slice.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.slice.js","jsurface3d/src/jsurface3d/jsurface3d.smile.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.smile.js","jsurface3d/src/jsurface3d/jsurface3d.surfaceplane.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceplane.js","jsurface3d/src/jsurface3d/jsurface3d.surfaceworld.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/jsurface3d/jsurface3d.surfaceworld.js","jsurface3d/src/three/detector.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/three/detector.js","jsurface3d/src/three/three.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/jsurface3d/src/three/three.js","raphael":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/raphael/raphael.js","tcharts/dist/bar.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/tcharts/dist/bar.js","tcharts/dist/tcharts.min.js":"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/node_modules/tcharts/dist/tcharts.min.js"}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/scripts/jsurface3d.js":[function(require,module,exports){
 $(document).ready(function () {
   var surface1, gen = function () {
       return {
@@ -55449,14 +55449,14 @@ $(document).ready(function () {
   });
 });
 
-},{}],"/home/alan/Development/Git/alanayoub.github.io/scripts/tcharts.js":[function(require,module,exports){
+},{}],"/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/scripts/tcharts.js":[function(require,module,exports){
 (function (arr) {
     var args, width;
     arr.forEach(function (val, idx) {
         args = arr[idx];
         width = args.css && args.css.width;
         $chart = $('<div>').addClass('aa-chart').css({width: width}).appendTo('.AA-tcharts');
-        $('<h3>' + args.label + '</h3><br /><p>' + args.description + '</p>').appendTo($chart);
+        $('<div class="AA-description">' + args.label + '<br />' + args.description + '</div>').appendTo($chart);
         $('<div class="chart">')
             .attr('id', 'group-' + idx)
             .css(args.css || {})
@@ -55757,4 +55757,4 @@ $(document).ready(function () {
     }
 ]);
 
-},{}]},{},["/home/alan/Development/Git/alanayoub.github.io/scripts/index.js"]);
+},{}]},{},["/media/alan/0e197e79-41ce-4178-813e-e40ce93dccd5/code/alanayoub.github.io/scripts/index.js"]);

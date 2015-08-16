@@ -20,7 +20,7 @@ h2 {
 }
 
 h2 sub {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 a {
@@ -84,7 +84,6 @@ a:hover {
 
 .gist, .gist-it-gist {
     width: 1024px;
-    margin: 20px 20px 0 20px;
 }
 
 .gist-it-gist .gist-file {
