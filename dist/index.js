@@ -55456,7 +55456,7 @@ $(document).ready(function () {
         args = arr[idx];
         width = args.css && args.css.width;
         $chart = $('<div>').addClass('aa-chart').css({width: width}).appendTo('.AA-tcharts');
-        $('<div class="AA-description">' + args.label + '<br />' + args.description + '</div>').appendTo($chart);
+        // $('<div class="AA-description"><div>' + args.label + '</div><br /><div>' + args.description + '</div></div>').appendTo($chart);
         $('<div class="chart">')
             .attr('id', 'group-' + idx)
             .css(args.css || {})
@@ -55711,7 +55711,7 @@ $(document).ready(function () {
     //
     {
         label: 'Lots of data in small area (9 x 9)',
-        description: '',
+        description: 'Colour wrap 9',
         css: {
             width: '502px', height: '300px'
         },
